@@ -34,11 +34,11 @@ const Header = () => {
           )}
         </button>
         <div className={`${navbarOpen ? "menuNav" : "hideMenu"}`}>
-        <ul className="showMenu" onClick={closeMenu}>HOME</ul>
-        <ul className="showMenu" onClick={closeMenu}>COMPANY</ul>
-        <ul className="showMenu" onClick={closeMenu}>TEAM</ul>
-        <ul className="showMenu" onClick={closeMenu}>ABOUT</ul>
-        <ul className="showMenu" onClick={closeMenu}>JOIN NOW</ul>
+        <ul className="showMenu" onClick={closeMenu}><Link to="/">HOME</Link></ul>
+        <ul className="showMenu" onClick={closeMenu}><Link to="/company">COMPANY</Link></ul>
+        <ul className="showMenu" onClick={closeMenu}><Link to="/team">TEAM</Link></ul>
+        <ul className="showMenu" onClick={closeMenu}><Link to="/abouut">ABOUT</Link></ul>
+        <ul className="showMenu" onClick={closeMenu}><Link to="/joinnow">JOIN NOW</Link></ul>
         </div>
     </div>
   )

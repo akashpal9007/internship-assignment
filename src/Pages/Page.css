@@ -1,0 +1,27 @@
+.page{
+        height: 90vh;
+        display: flex;
+        /* align-items: center; */
+        flex-direction: column;
+        text-align: initial;
+        width: 29rem;
+        padding: 4rem;
+        margin-left: 10rem;
+}
+@media (max-width:1150px){
+    .page{
+        margin-left: 0;
+        /* width: 100%; */
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+}
+@media only screen and (max-width: 768px){
+    .page{
+        /* width: 90%; */
+        height: 90vh;
+        padding: 0rem 2rem;
+        justify-content: unset;
+        padding-top: 3rem;
+    }
+}
