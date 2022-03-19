@@ -1,0 +1,142 @@
+.header{
+    
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.logo{
+    font-size: 1.7rem;
+}
+.hamburger{
+    display: none;
+}
+.navbar{
+    width: 80%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navbar li{
+    /* font-size: medium; */
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    padding: 0rem 2rem;
+    border-radius: 1.2rem;
+}
+.navbar li a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.navbar li a:focus{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 0.15rem;
+}
+.navbtn{
+    background: linear-gradient(
+        to right,
+        #ffc115,
+        #f28c26
+    );
+}
+.menuNav{
+    display: none;
+}
+.hideMenu{
+    display: none;
+}
+.nav-m-btn{
+    display: none;
+}
+@media (max-width:900px){
+    .header{
+        padding: 1rem;
+        justify-content: space-between;
+    }
+    .navbar li{
+        /* height: 2rem; */
+    padding: 0rem 0.5rem;
+    }
+    .logo{
+        padding: 0 0.2rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    .logo{
+        padding-left: 2rem;
+        padding-top: 1rem;
+    }
+    .header{
+        padding: 2rem 0rem;
+    }
+    .nav-m-btn{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+      
+      .navBar button {
+        position: fixed;
+        left: 40px;
+        top: 40px;
+        z-index: 10;
+        cursor: pointer;
+      }
+      
+      .menuNav {
+        overflow-y: scroll;
+        list-style: none;
+        position: fixed;
+        top: 0;
+        background: linear-gradient(
+            to right,
+            #ffc115,
+            #f28c26
+        );
+        left: 0;
+        bottom: 0;
+        height: 100vh;
+        width: 0;
+        overflow: hidden;
+        max-width: 290px;
+        z-index: 9;
+      }
+      
+      .menuNav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .showMenu{
+          /* border: 2px solid black; */
+          height: 3rem;
+        padding-top: 0.5rem;
+        cursor: pointer;
+      }
+      a {
+        display: block;
+        padding: 10px 40px;
+        text-decoration: none;
+        color: #3fffd2;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      
+      .menuNav li:first-child {
+        margin-top: 7rem;
+      }
+}
