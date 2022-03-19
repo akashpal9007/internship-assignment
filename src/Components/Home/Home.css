@@ -1,8 +1,4 @@
-body{
-    
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-}
+
 .home{
     height: 60vh;
     display: flex;
