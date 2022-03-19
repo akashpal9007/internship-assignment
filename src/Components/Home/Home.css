@@ -36,7 +36,7 @@
 }
 @media only screen and (max-width: 768px){
     .home{
-        width: 90%;
+        /* width: 90%; */
         height: 40vh;
         padding: 0rem 2rem;
         justify-content: unset;
