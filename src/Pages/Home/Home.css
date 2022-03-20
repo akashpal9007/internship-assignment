@@ -34,12 +34,23 @@
         justify-content: center;
     }
 }
+.div-btn{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center
+}
 @media only screen and (max-width: 768px){
     .home{
         /* width: 90%; */
-        height: 40vh;
+        /* height: 80vh; */
+        width: 100vw;
         padding: 0rem 2rem;
         justify-content: unset;
         padding-top: 3rem;
+    }
+    .jbtn{
+        padding: 0rem;
+        font-size: small;
     }
 }

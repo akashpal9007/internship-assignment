@@ -7,14 +7,14 @@
 }
 body{
   
-  max-width: 100% !important;
-  overflow-x: hidden !important;
+  max-width: 100vw !important;
   background: url('./img/bg.jpg');
+  /* overflow-x: hidden !important; */
+}
+.App {
   background-size: cover; 
   background-position: center center;
   background-repeat: no-repeat;
-}
-.App {
   max-height: 90vh;
   text-align: center;
 }

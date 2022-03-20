@@ -3,6 +3,7 @@ import './Header.css'
 import {Link} from "react-router-dom";
 import { MdClose } from "react-icons/md"
 import { FiMenu } from "react-icons/fi"
+import logo from '../img/logo.png'
 // import MenuIcon from '@mui/icons-material/Menu';
 
 const Header = () => {
@@ -16,7 +17,7 @@ const Header = () => {
   return (
     <div className='header'>
         <div className='logo'>
-          <img src='../img/logo.png'/>
+          <img src={logo}/>
           Logo
           </div>
         <nav className='navbar'>
